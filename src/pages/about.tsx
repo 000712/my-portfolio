@@ -15,18 +15,18 @@ const About = () => {
 
         {/* 한글 자기소개 */}
         <p className={styles.description}>
-          안녕하세요, 저는 김건희입니다!&apos;
+          안녕하세요, 저는 김건희입니다!
           <br />
           중부대학교에서 경찰경호학과와 정보보호학과를 복수 전공하고 있습니다.
           <br />
-          보안 전문가가 되고 싶다는 열망으로 열심히 공부 중입니다.
+          보안 전문가가 되고 싶다는 열망으로 열심히 공부 중입니다.&apos;
           <br />
           앞으로 사이버 보안 분야에서 영향력 있는 전문가로 성장하고 싶습니다.
         </p>
 
         {/* 영어 자기소개 추가 */}
         <p className={styles.description}>
-          Hello, I'm Kim Geonhee!
+          Hello, I&apos;m Kim Geonhee!
           <br />
           I am currently pursuing a double major in Police Security and
           Information Security at Joongbu University.
