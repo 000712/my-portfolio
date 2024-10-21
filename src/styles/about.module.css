@@ -1,0 +1,68 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-grow: 1;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.description {
+  font-size: 1.2rem;
+  color: #666;
+  max-width: 800px;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+.contact {
+  margin-top: 60px; /* Contact 섹션 위에 여백을 추가 */
+}
+
+.contact h2 {
+  font-size: 1.5rem;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.contact p {
+  font-size: 1.1rem;
+  color: #666;
+  margin: 5px 0;
+}
+
+.contact a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #999;
+}

@@ -1,0 +1,80 @@
+/* Projects.module.css */
+
+.container {
+  padding: 0 2rem;
+  background-color: #f0f0f0; /* 전체 배경색 추가 */
+}
+
+.main {
+  min-height: calc(100vh - 100px); /* 푸터 높이를 제외한 높이 설정 */
+  padding: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.project {
+  margin-bottom: 4rem; /* 프로젝트 사이 여백 조정 */
+  text-align: center;
+}
+
+.project h2 {
+  font-size: 2rem; /* 프로젝트 제목 크기 조정 */
+  font-weight: normal; /* 원래 굵기로 복구 */
+  color: #000; /* 색상을 검정으로 변경 */
+  margin-bottom: 1rem; /* 제목과 이미지 사이에 여백 추가 */
+}
+
+.projectImage {
+  border-radius: 8px;
+}
+
+/* 프로젝트 설명에 마진 추가 */
+.project p {
+  margin-top: 2rem; /* 사진과 설명 사이에 공간 추가 */
+}
+
+/* Links 부분 스타일 유지 */
+.links {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.linksTitle {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.link {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.link a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.link a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  width: 100%;
+  text-align: center;
+  background-color: #f0f0f0; /* 기존 배경색 유지 */
+}
