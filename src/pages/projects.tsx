@@ -59,7 +59,7 @@ const Projects = () => {
           <p className={styles.link}>
             Vercel:{' '}
             <a
-              href="https://vercel.com/your-vercel-profile"
+              href="https://vercel.com/000712s-projects"
               target="_blank"
               rel="noopener noreferrer"
             >
